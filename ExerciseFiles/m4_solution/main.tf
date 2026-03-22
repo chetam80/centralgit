@@ -7,7 +7,6 @@ AWS credentials are required to apply this configuration and can be set using en
 terraform {
   required_providers {
     aws = {
-   region     = "ap-south-1"
       source  = "hashicorp/aws"
       version = "~> 5.0"
     }
