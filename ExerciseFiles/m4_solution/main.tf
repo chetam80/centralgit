@@ -8,8 +8,6 @@ terraform {
   required_providers {
     aws = {
    region     = "ap-south-1"
-   access_key = "AKIAS7VZVMHFR6YT6CXI"
-   secret_key = "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"
       source  = "hashicorp/aws"
       version = "~> 5.0"
     }
